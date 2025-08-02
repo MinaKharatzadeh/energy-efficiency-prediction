@@ -31,7 +31,7 @@ In addition, some new features were engineered to test their impact:
 
 ## ⚙️ Models Applied
 - Linear Regression (baseline model)  
-- Ridge Regression  
+- Random  Forest Regressor  
 - Gradient Boosting Regressor  
 
 Each model was trained and evaluated using `Mean Squared Error (MSE)` and `R² Score`.
@@ -46,8 +46,7 @@ Various plots were generated to:
 energy-efficiency-project/
 │
 ├── data/ → contains raw dataset
-├── notebooks/ → main notebook(s)
+├── notebooks/ → main notebook
 ├── images/ → visual outputs
-├── models/ → saved models (e.g., .pkl)
-├── requirements.txt → dependencies (optional)
+├── models/ → saved models 
 └── README.md → project documentation
